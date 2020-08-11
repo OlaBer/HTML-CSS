@@ -172,6 +172,36 @@ ol > li > ul
 	padding: 0;
 	margin: 0;
 	height: 40px;
+	display: none;
+}
+
+ol >li:hover > ul
+{
+	display: block;
 }
 
 ol > li > ul > li
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40 px;
+}
+
+ol > li > ul > li
+{
+	background-color: #cf6969;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #751b1b;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #c34f4f;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #451717;
+}
